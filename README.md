@@ -11,9 +11,9 @@ Requirements:<br>
 3 - Enable Long Paths in Windows. It is not mandatory but I guess it will safe some troubleshoot time.<br>
 <br>
 
-```
+```yaml
 variables:
-  url: https://demo.testfire.net
+  url: https://website.net
   scanFile: $CI_PROJECT_DIR\$CI_PROJECT_NAME-$CI_JOB_ID.scan
   reportXMLFile: $CI_PROJECT_DIR\$CI_PROJECT_NAME-$CI_JOB_ID.xml
   reportPDFFile: $CI_PROJECT_DIR\$CI_PROJECT_NAME-$CI_JOB_ID.pdf
