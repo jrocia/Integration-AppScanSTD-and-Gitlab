@@ -1,4 +1,4 @@
-# Intergration AppScan Standard (DAST) and Gitlab
+# Integration AppScan Standard (DAST) and Gitlab
 <br>
 It will help to Integrate AppScan Standard on Gitlab. It will enable Gitlab to start scan, generate pdf/xml report, publish results to AppScan Enterprise and check for Security Gate.<br>
 <br>
