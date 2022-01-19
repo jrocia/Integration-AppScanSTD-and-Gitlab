@@ -41,22 +41,22 @@ scan-dast-job:
     - write-host "======== Step 4 - Checking Security Gate ========"
     - >
       if (( "$highIssues" -gt "$maxIssuesAllowed" ) -and ( "$sevSecGw" -eq "highIssues" )) {
-        echo "Security Gate build failed"
+        write-host "Security Gate build failed"
         exit 1
       }
       elseif (( "$mediumIssues" -gt "$maxIssuesAllowed" ) -and ( "$sevSecGw" -eq "mediumIssues" )) {
-        echo "Security Gate build failed"
+        write-host "Security Gate build failed"
         exit 1
       }
       elseif (( "$lowIssues" -gt "$maxIssuesAllowed" ) -and ( "$sevSecGw" -eq "lowIssues" )) {
-        echo "Security Gate build failed"
+        write-host "Security Gate build failed"
         exit 1
       }
       elseif (( "$totalIssues" -gt "$maxIssuesAllowed" ) -and ( "$sevSecGw" -eq "totalIssues" )) {
-        echo "Security Gate build failed"
+        write-host "Security Gate build failed"
         exit 1
       }
-    - echo "Security Gate passed"
+    - write-host "Security Gate passed"
   
   artifacts:
     paths:
