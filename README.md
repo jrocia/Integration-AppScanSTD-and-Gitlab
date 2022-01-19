@@ -6,7 +6,7 @@ Requirements:<br>
 1 - AppScan Standard in Windows Server (it was tested on Windows 2019).<br>
 2 - Install Gitlab Runner for Windows in same Windows Server that has AppScan STD.<br><pre>
   2.1 - Add Gitlab Runner as a Service.<br>
-  2.2 - Change User Service to same User that has access in AppScan Enterprise. AppScanSTD will use this user name and password to publish into Appscan Enterprise.<br><pre>
+  2.2 - Change User Service to same User that has access in AppScan Enterprise. AppScanSTD will use this user name and password to publish into Appscan Enterprise.<br></pre>
 3 - Enable Long Paths in Windows. It is not mandatory but I guess it will safe some troubleshoot time.<br>
 <br>
 
