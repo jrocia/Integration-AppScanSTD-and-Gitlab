@@ -1,9 +1,8 @@
 # Intergration AppScan Standard (DAST) and Gitlab
 <br>
-It will help to Integrate AppScan Standard on Gitlab. It will enable Gitlab to start scan, generate pdf/xml report, publish results to AppScan Enterprise and check for Security Gate.
+It will help to Integrate AppScan Standard on Gitlab. It will enable Gitlab to start scan, generate pdf/xml report, publish results to AppScan Enterprise and check for Security Gate.<br>
 <br>
 Requirements:<br>
-<br>
 1 - AppScan Standard in Windows Server (it was tested on Windows 2019).<br>
 2 - Install Gitlab Runner for Windows in same Windows Server that has AppScan STD.<br>
   2.1 - Add Gitlab Runner as a Service.<br>
