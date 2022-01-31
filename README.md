@@ -4,10 +4,11 @@ It will help to Integrate AppScan Standard on Gitlab. It will enable Gitlab to s
 <br>
 Requirements:<br>
 1 - AppScan Standard in Windows Server (it was tested on Windows 2019).<br>
-2 - Install Gitlab Runner for Windows in same Windows Server that has AppScan STD.<br>
-  2.1 - Add Gitlab Runner as a Service.<br>
-  2.2 - Change User Service to same User that has access in AppScan Enterprise. AppScanSTD will use this user name and password to publish into Appscan Enterprise.<br>
-3 - Enable Long Paths in Windows. It is not mandatory but I guess it will safe some troubleshoot time.<br>
+2 - Add AppScan Standard folder to Windows PATH Environment Variable.<br>
+3 - Install Gitlab Runner for Windows in same Windows Server that has AppScan STD.<br>
+  3.1 - Add Gitlab Runner as a Service.<br>
+  3.2 - Change User Service to same User that has access in AppScan Enterprise. AppScanSTD will use this user name and password to publish into Appscan Enterprise.<br>
+4 - Enable Long Paths in Windows. It is not mandatory but I guess it will safe some troubleshoot time.<br>
 <br>
 
 ```yaml
